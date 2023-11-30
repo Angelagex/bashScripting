@@ -3,6 +3,9 @@
 age=19
 #if [ $age -gt 18 ] && [ $age -lt 40 ]
 #if [[ $age -gt 18 && $age -lt 40 ]]
+#if [[ $age -gt 18 || $age -lt 40 ]]
+#if [ $age -gt 18 ] || [ $age -lt 40 ]
+#if [[ $age -gt 18 -o $age -lt 40 ]]
 
 if [ $age -gt 18 ] && [ $age -lt 40 ]
 then
